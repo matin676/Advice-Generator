@@ -15,11 +15,11 @@ async function getAdviceById(adviceId){
     }
 }
 
-const randomAdviceId = Math.floor(Math.random() * 500) + 1;
+const randomAdviceId = Math.floor(Math.random() * 200) + 1;
 getAdviceById(randomAdviceId);
 
 const dice = document.querySelector('.dice');
 dice.addEventListener('click', () => {
-    const randomAdviceId = Math.floor(Math.random() * 500) + 1;
+    const randomAdviceId = Math.floor(Math.random() * 200) + 1;
     getAdviceById(randomAdviceId);
 });
