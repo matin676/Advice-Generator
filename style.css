@@ -48,8 +48,8 @@ body {
   margin: 0.5rem 1.5rem 1rem 1.5rem;
 }
 
-.display{
-    display: none;
+.display {
+  display: none;
 }
 
 .roll {
@@ -63,10 +63,10 @@ body {
   opacity: 0.8;
 }
 
-.roll:hover{
-    cursor: pointer;
-    opacity: 2;
-    box-shadow: 0 0 40px 5px rgba(82, 255, 168,0.75);
+.roll:hover {
+  cursor: pointer;
+  opacity: 2;
+  box-shadow: 0 0 40px 5px rgba(82, 255, 168, 0.75);
 }
 
 .dice {
@@ -81,29 +81,13 @@ body {
 }
 
 @media (max-width: 400px) {
-  .display{
+  .display {
     display: block;
   }
-  .hide{
+  .hide {
     display: none;
   }
-  .advice{
+  .advice {
     font-size: 20px;
   }
-}
-
-.attribution {
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  justify-content: center;
-  font-size: 11px;
-  text-align: center;
-  color: white;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
